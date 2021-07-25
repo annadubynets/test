@@ -364,9 +364,8 @@ p {
     width: 100%;
   }
 
-  .search-input {
+  .form-control {
     font-size: 16px !important;
-    min-width: 312px !important;
   }
 
   .navbar {

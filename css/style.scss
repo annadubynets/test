@@ -156,6 +156,7 @@ p {
 .repeat-grid-left {
     background-image: url("../images/repeat-grid-left.svg");
     background-repeat: no-repeat;
+    background-size: cover;
     position: absolute;
     left: -65px;
     bottom: 30px;
@@ -166,6 +167,7 @@ p {
 .repeat-grid-right {
     background-image: url("../images/repeat-grid-right.svg");
     background-repeat: no-repeat;
+    background-size: cover;
     position: absolute;
     right: -65px;
     top: -76px;
@@ -228,7 +230,6 @@ p {
         bottom: -10px;
         left: 25px;
         background: linear-gradient(100deg, #1470B2 0%, #872BB4 20%);
-        background-size: 100%;
         z-index: -1;
         filter: blur(28px);
     }

@@ -271,6 +271,8 @@ p {
 .shadow-bg {
   position: relative;
   border: 9px solid #FFFFFF;
+  border-radius: 10px;
+  background-color: #FFFFFF;
 }
 .shadow-bg::after {
   content: "";
@@ -282,8 +284,6 @@ p {
   background: linear-gradient(100deg, #1470B2 0%, #872BB4 20%);
   background-size: 100%;
   z-index: -1;
-}
-.shadow-bg::after {
   filter: blur(28px);
 }
 

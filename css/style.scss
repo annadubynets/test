@@ -30,7 +30,7 @@ p {
 .btn-primary {
     font-weight: 400;
     font-size: 20px;
-    padding: 22px 76px;
+    padding: 22px 50px;
     color: $white;
     background: linear-gradient(90deg, #BF3EFE 0%, #1B9EFF 100%);
     border-radius: 36px;
@@ -241,6 +241,15 @@ p {
         z-index: -1;
         filter: blur(28px);
     }
+    iframe {
+        border-radius: 10px!important;
+    }
+}
+
+@media (max-width: 1900px) {
+    .card {
+        padding: 0px 30px 40px 30px;
+    }
 }
 
 @media (max-width: 1200px) {
@@ -249,6 +258,9 @@ p {
     }
     h2 {
         font-size: 50px!important;
+    }
+    .font-size-20px {
+        font-size: 16px!important;
     }
     .repeat-grid-left {
         background-image: url("../images/repeat-grid-left-middle.svg")!important;
@@ -269,7 +281,7 @@ p {
         display: none;
     }
     .card {
-        padding: 0px 30px 40px 30px;
+        padding: 0px 24px 40px 24px;
     }
 }
 
@@ -284,7 +296,6 @@ p {
         font-size: 18px!important;
     }
     .btn-primary {
-        padding: 12px 50px;
         width: 100%;
     }
     .search-input {

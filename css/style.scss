@@ -57,56 +57,48 @@ p {
     box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.05)!important;
 }
 
-.search-box {
-    width: auto;
-    position: relative;
-    bottom: 0;
-    left: 0;
-    right: 0;
-}
-
-.search-input {
+.form-control {
     min-width: 537px;
     font-weight: 300;
     font-size: 26px;
     padding: 9px 20px;
-    background-color: #FFFFFF;
+    background-color: transparent;
     color: $black;
     border: 1px solid rgba(112, 112, 112, 0.23);
+    border-right: none;
     border-radius: 5px;
     transition: all .4s;
+    &:focus {
+        background-color: transparent;
+        outline: none;
+        box-shadow: none;
+        border: 1px solid rgba(112, 112, 112, 0.23);
+        border-right: none;
+    }
 }
 
-.search-input:focus {
-    outline: none;
-    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.05);
-    -moz-box-shadow: 0 1px 12px #b8c6db;
-    -webkit-box-shadow: 0 1px 12px #b8c6db;
-}
-
-.search-btn {
-    background-color: transparent;
-    font-size: 20px;
-    margin-left: -40px;
-    border: none;
-    color: $black;
-    transition: all .4s;
-    z-index: 10;
-}
-
-.search-input-wide {
-    width: 98%!important;
-}
-
-.search-btn:hover {
-    transform: scale(1.2);
-    cursor: pointer;
-    color: $black;
-}
-
-.search-btn:focus {
-    outline: none;
-    color: $black;
+.input-group {
+    &:focus {
+        outline: none;
+        color: $black;
+        border-color: $grey;
+        box-shadow: 0px 20px 40px rgba(112, 112, 112, 0.23);
+    }
+    &:hover {
+        cursor: pointer;
+        color: $black;
+    }
+    .input-group-text {
+        background-color: transparent;
+        font-size: 20px;
+        margin-left: -40px;
+        border: none;
+        color: $black;
+        transition: all .4s;
+        z-index: 10;
+        border: 1px solid rgba(112, 112, 112, 0.23);
+        border-left: none;
+    }
 }
 
 .card-bg {

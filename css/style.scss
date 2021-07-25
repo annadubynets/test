@@ -156,7 +156,6 @@ p {
 .repeat-grid-left {
     background-image: url("../images/repeat-grid-left.svg");
     background-repeat: no-repeat;
-    background-size: cover;
     position: absolute;
     left: -65px;
     bottom: 30px;
@@ -167,7 +166,6 @@ p {
 .repeat-grid-right {
     background-image: url("../images/repeat-grid-right.svg");
     background-repeat: no-repeat;
-    background-size: cover;
     position: absolute;
     right: -65px;
     top: -76px;
@@ -184,6 +182,16 @@ p {
     position: absolute;
     bottom: -46px;
     right: -80px;
+}
+
+@media (min-width: 1200px) and (max-width: 1500px) {
+    .repeat-grid-right {
+        right: -14px;
+        width: 140px;
+    }
+    .ellipse-decor-1 {
+        right: -10px;
+    }
 }
 
 .ellipse-decor-2 {
@@ -246,11 +254,16 @@ p {
         background-image: url("../images/repeat-grid-left-middle.svg")!important;
         left: -35px!important;
         bottom: 55px!important;
+        width: 120px;
     }
     .repeat-grid-right {
         background-image: url("../images/repeat-grid-right-middle.svg")!important;
-        right: -100px!important;
+        right: -10px!important;
         top: -45px!important;
+        width: 120px;
+    }
+    .ellipse-decor-1 {
+        display: none;
     }
     .ellipse-decor-3 {
         display: none;

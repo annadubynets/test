@@ -2,7 +2,7 @@
 @import "fonts.css";
 h1 {
   font-weight: 900;
-  font-size: 114px;
+  font-size: 90px;
   color: #585858;
 }
 
@@ -20,8 +20,14 @@ h3 {
 
 h4 {
   font-weight: 900;
-  font-size: 30px;
+  font-size: 24px;
   color: #000000;
+}
+
+h5 {
+  font-weight: 700;
+  font-size: 20px;
+  color: #848484;
 }
 
 .font-size-35px {
@@ -46,6 +52,14 @@ h4 {
 
 .text-secondary {
   color: #A4A4A4 !important;
+}
+
+.text-muted {
+  color: #D6D6D6 !important;
+}
+
+.text-black-50 {
+  color: #848484 !important;
 }
 
 .text-dark {
@@ -101,17 +115,28 @@ p {
   box-shadow: none !important;
 }
 
+.navbar-light .navbar-nav .nav-link {
+  color: #585858;
+  font-size: 20px;
+  font-weight: 400;
+}
+.navbar-light .navbar-nav .nav-link:active {
+  color: #000000 !important;
+  font-weight: 700;
+  border-bottom: 1px solid #1B9EFF;
+}
+
 .main-description {
   font-family: "Merriweather";
   font-style: normal;
-  font-size: 29px;
+  font-size: 26px;
   color: #848484;
 }
 
 .btn-primary {
   font-weight: 400;
-  font-size: 20px;
-  padding: 22px 50px;
+  font-size: 16px;
+  padding: 22px 76px;
   color: #FFFFFF;
   background: linear-gradient(90deg, #BF3EFE 0%, #1B9EFF 100%);
   border-radius: 36px;
@@ -130,6 +155,15 @@ p {
   background: #FFFFFF;
   border-radius: 25px;
   border: 1px solid #1B9EFF;
+}
+.btn-outline-primary:hover {
+  background-color: #1B9EFF !important;
+  border: 1px solid #1B9EFF;
+}
+
+.btn-check:focus + .btn-outline-primary,
+.btn-outline-primary:focus {
+  box-shadow: none !important;
 }
 
 .btn-check:focus + .btn-primary,
@@ -150,7 +184,7 @@ p {
 
 .form-control {
   font-weight: 300;
-  font-size: 26px;
+  font-size: 20px;
   padding: 9px 20px;
   background-color: transparent;
   color: #585858;
@@ -187,6 +221,7 @@ p {
   z-index: 10;
   border: 1px solid rgba(112, 112, 112, 0.23);
   border-left: none;
+  padding-right: 34px;
 }
 
 .modal-dialog .modal-content {
@@ -220,6 +255,10 @@ p {
   backdrop-filter: brightness(15) !important;
 }
 
+.modal-md {
+  max-width: 600px;
+}
+
 .hr-line {
   width: 40%;
   position: relative;
@@ -249,6 +288,7 @@ p {
 }
 
 .card {
+  background-color: transparent;
   border: none;
   border-radius: 10px;
   padding: 0px 50px 40px 50px;
@@ -257,7 +297,8 @@ p {
 .card .card-text {
   font-family: "Merriweather";
   font-style: italic;
-  font-size: 20px;
+  font-size: 17px;
+  line-height: 1.9;
   color: #848484;
 }
 
@@ -273,25 +314,6 @@ p {
   top: 274px;
   width: 100%;
   height: 100%;
-}
-.learn .form-control {
-  min-width: 537px;
-  font-weight: 300;
-  font-size: 26px;
-  padding: 9px 20px;
-  background-color: transparent;
-  color: #585858;
-  border: 1px solid rgba(112, 112, 112, 0.23);
-  border-right: none;
-  border-radius: 5px;
-  transition: all 0.4s;
-}
-.learn .form-control:focus {
-  background-color: transparent;
-  outline: none;
-  box-shadow: none;
-  border: 1px solid rgba(112, 112, 112, 0.23);
-  border-right: none;
 }
 .learn .input-group:focus {
   outline: none;
@@ -367,23 +389,13 @@ p {
   left: 180px;
 }
 
-.ellipse-decor-3 {
-  width: 22px;
-  height: 22px;
-  background-color: #1B9EFF;
-  border-radius: 50px;
-  position: absolute;
-  bottom: 50px;
-  left: 150px;
-}
-
 .ellipse-decor-4 {
   width: 10px;
   height: 10px;
   background-color: #BB40FE;
   border-radius: 50px;
   position: absolute;
-  bottom: 80px;
+  bottom: 0;
   right: 200px;
 }
 
@@ -430,6 +442,9 @@ p {
 .search .border-bottom {
   border-bottom: 1px solid rgba(27, 158, 255, 0.22) !important;
 }
+.search .table-hover:hover {
+  background: #d4ebfd1f;
+}
 
 .less-link {
   font-weight: 300;
@@ -440,6 +455,51 @@ p {
 .less-link:hover {
   color: #1B9EFF;
   text-decoration: underline;
+}
+
+.list-group-item {
+  font-weight: 300;
+  font-size: 20px;
+  background-color: transparent !important;
+  color: #848484;
+  border: 1px solid #F1F1F1;
+  padding: 15px;
+}
+.list-group-item .active {
+  font-weight: 700;
+  color: #1B9EFF;
+}
+
+.course .form-control {
+  border: 1px solid rgba(112, 112, 112, 0.23);
+}
+.course textarea {
+  resize: none;
+}
+.course .border-bottom {
+  border-bottom: 1px solid #F1F1F1 !important;
+}
+.course .border-top {
+  border-top: 1px solid #F1F1F1 !important;
+}
+.course .form-check-input:focus {
+  box-shadow: none;
+}
+.course .form-check-input:checked {
+  background-color: #1B9EFF;
+}
+.course .form-check-label {
+  font-weight: 300;
+  font-size: 20px;
+  color: #848484;
+}
+.course .form-switch .form-check-input {
+  float: right;
+  background-color: #1B9EFF;
+  border: none;
+  height: 24px;
+  width: 45px;
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='%23fff'/%3e%3c/svg%3e");
 }
 
 @media (max-width: 1900px) {
@@ -475,10 +535,6 @@ p {
   }
 
   .ellipse-decor-1 {
-    display: none;
-  }
-
-  .ellipse-decor-3 {
     display: none;
   }
 

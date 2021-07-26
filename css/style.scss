@@ -20,17 +20,28 @@ p {
     }
 }
 
+.navbar-light .navbar-nav .nav-link {
+    color: $black;
+    font-size: 20px;
+    font-weight: 400;
+    &:active {
+        color: #000000!important;
+        font-weight: 700;
+        border-bottom: 1px solid $deepskyblue;
+    }
+}
+
 .main-description {
     font-family: 'Merriweather';
     font-style: normal;
-    font-size: 29px;
+    font-size: 26px;
     color: $grey;
 }
 
 .btn-primary {
     font-weight: 400;
-    font-size: 20px;
-    padding: 22px 50px;
+    font-size: 16px;
+    padding: 22px 76px;
     color: $white;
     background: linear-gradient(90deg, #BF3EFE 0%, #1B9EFF 100%);
     border-radius: 36px;
@@ -49,6 +60,15 @@ p {
     background: $white;
     border-radius: 25px;
     border: 1px solid $deepskyblue;
+    &:hover {
+        background-color: $deepskyblue!important;
+        border: 1px solid $deepskyblue;
+    }
+}
+
+.btn-check:focus+.btn-outline-primary,
+.btn-outline-primary:focus {
+    box-shadow: none!important;
 }
 
 .btn-check:focus+.btn-primary,
@@ -69,7 +89,7 @@ p {
 
 .form-control {
     font-weight: 300;
-    font-size: 26px;
+    font-size: 20px;
     padding: 9px 20px;
     background-color: transparent;
     color: $black;
@@ -107,6 +127,7 @@ p {
         z-index: 10;
         border: 1px solid rgba(112, 112, 112, 0.23);
         border-left: none;
+        padding-right: 34px;
     }
 }
 
@@ -145,6 +166,10 @@ p {
     backdrop-filter: brightness(15)!important;
 }
 
+.modal-md {
+    max-width: 600px;
+}
+
 .hr-line {
     width: 40%;
     position: relative;
@@ -176,6 +201,7 @@ p {
 }
 
 .card {
+    background-color: transparent;
     border: none;
     border-radius: 10px;
     padding: 0px 50px 40px 50px;
@@ -183,7 +209,8 @@ p {
     .card-text {
         font-family: 'Merriweather';
         font-style: italic;
-        font-size: 20px;
+        font-size: 17px;
+        line-height: 1.9;
         color: $grey;
     }
 }
@@ -201,25 +228,6 @@ p {
         top: 274px;
         width: 100%;
         height: 100%;
-    }
-    .form-control {
-        min-width: 537px;
-        font-weight: 300;
-        font-size: 26px;
-        padding: 9px 20px;
-        background-color: transparent;
-        color: $black;
-        border: 1px solid rgba(112, 112, 112, 0.23);
-        border-right: none;
-        border-radius: 5px;
-        transition: all .4s;
-        &:focus {
-            background-color: transparent;
-            outline: none;
-            box-shadow: none;
-            border: 1px solid rgba(112, 112, 112, 0.23);
-            border-right: none;
-        }
     }
     .input-group {
         &:focus {
@@ -298,23 +306,13 @@ p {
     left: 180px;
 }
 
-.ellipse-decor-3 {
-    width: 22px;
-    height: 22px;
-    background-color: $deepskyblue;
-    border-radius: 50px;
-    position: absolute;
-    bottom: 50px;
-    left: 150px;
-}
-
 .ellipse-decor-4 {
     width: 10px;
     height: 10px;
     background-color: $mediumpurple;
     border-radius: 50px;
     position: absolute;
-    bottom: 80px;
+    bottom: 0;
     right: 200px;
 }
 
@@ -362,16 +360,70 @@ p {
     .border-bottom {
         border-bottom: 1px solid rgba(27, 158, 255, 0.22)!important;
     }
+    .table-hover {
+        &:hover {
+            background: #d4ebfd1f;
+        }
+    }
 }
 
 .less-link {
     font-weight: 300;
     font-size: 20px;
-    color: #1B9EFF;
+    color: $deepskyblue;
     text-decoration: none;
     &:hover {
-        color: #1B9EFF;
+        color: $deepskyblue;
         text-decoration: underline;
+    }
+}
+
+.list-group-item {
+    font-weight: 300;
+    font-size: 20px;
+    background-color: transparent!important;
+    color: $grey;
+    border: 1px solid #F1F1F1;
+    padding: 15px;
+    .active {
+        font-weight: 700;
+        color: $deepskyblue;
+    }
+}
+
+.course {
+    .form-control {
+        border: 1px solid rgba(112, 112, 112, 0.23);
+    }
+    textarea {
+        resize: none;
+    }
+    .border-bottom {
+        border-bottom: 1px solid #F1F1F1!important;
+    }
+    .border-top {
+        border-top: 1px solid #F1F1F1!important;
+    }
+    .form-check-input {
+        &:focus {
+            box-shadow: none;
+        }
+    }
+    .form-check-input:checked {
+        background-color: $deepskyblue;
+    }
+    .form-check-label {
+        font-weight: 300;
+        font-size: 20px;
+        color: $grey;
+    }
+    .form-switch .form-check-input {
+        float: right;
+        background-color: $deepskyblue;
+        border: none;
+        height: 24px;
+        width: 45px;
+        background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='%23fff'/%3e%3c/svg%3e");
     }
 }
 
@@ -404,9 +456,6 @@ p {
         width: 120px;
     }
     .ellipse-decor-1 {
-        display: none;
-    }
-    .ellipse-decor-3 {
         display: none;
     }
     .card {

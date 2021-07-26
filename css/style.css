@@ -13,6 +13,12 @@ h2 {
 }
 
 h3 {
+  font-weight: 700;
+  font-size: 50px;
+  color: #585858;
+}
+
+h4 {
   font-weight: 900;
   font-size: 30px;
   color: #000000;
@@ -303,6 +309,36 @@ p {
   border-radius: 10px !important;
 }
 
+.search .form-control {
+  border-radius: 69px;
+  color: #585858;
+}
+.search .input-group-text {
+  border-radius: 69px;
+  color: #707070;
+}
+.search label {
+  color: #A4A4A4;
+  font-size: 12px;
+  font-weight: 300;
+  padding: 15px 0;
+}
+.search p {
+  color: #2D2D2D;
+  font-size: 21px;
+  font-weight: 400;
+}
+.search .border-bottom {
+  border-bottom: 1px solid rgba(27, 158, 255, 0.22) !important;
+}
+
+.less-link {
+  font-weight: 300;
+  font-size: 20px;
+  color: #1B9EFF;
+  text-decoration: none;
+}
+
 @media (max-width: 1900px) {
   .card {
     padding: 0px 30px 40px 30px;
@@ -390,6 +426,10 @@ p {
 
   .card-img-top {
     max-width: 300px;
+  }
+
+  .search label {
+    font-size: 14px;
   }
 }
 

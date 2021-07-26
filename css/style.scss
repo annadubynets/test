@@ -238,6 +238,38 @@ p {
     }
 }
 
+.search {
+    .form-control {
+        border-radius: 69px;
+        color: $black;
+    }
+    .input-group-text {
+        border-radius: 69px;
+        color: $darkgrey;
+    }
+    label {
+        color: $lightgray;
+        font-size: 12px;
+        font-weight: 300;
+        padding: 15px 0;
+    }
+    p {
+        color: #2D2D2D;
+        font-size: 21px;
+        font-weight: 400;
+    }
+    .border-bottom {
+        border-bottom: 1px solid rgba(27, 158, 255, 0.22)!important;
+    }
+}
+
+.less-link {
+    font-weight: 300;
+    font-size: 20px;
+    color: #1B9EFF;
+    text-decoration: none;
+}
+
 @media (max-width: 1900px) {
     .card {
         padding: 0px 30px 40px 30px;
@@ -310,5 +342,10 @@ p {
     }
     .card-img-top {
         max-width: 300px;
+    }
+    .search {
+        label {
+            font-size: 14px;
+        }
     }
 }

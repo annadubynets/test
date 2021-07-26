@@ -1,4 +1,5 @@
 $black: #585858;
+$darkgrey: #707070;
 $grey: #848484;
 $lightgray: #A4A4A4;
 $mediumpurple: #BB40FE;
@@ -19,6 +20,12 @@ h2 {
 }
 
 h3 {
+    font-weight: 700;
+    font-size: 50px;
+    color: $black;
+}
+
+h4 {
     font-weight: 900;
     font-size: 30px;
     color: #000000;

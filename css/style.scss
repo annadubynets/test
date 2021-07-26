@@ -129,6 +129,14 @@ p {
         border-left: none;
         padding-right: 34px;
     }
+    input {
+        &:focus {
+            border-color: #2d2d2d;
+            &~.input-group-text {
+                border-color: #2d2d2d;
+            }
+        }
+    }
 }
 
 .modal-dialog {

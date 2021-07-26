@@ -346,6 +346,14 @@ p {
         border-radius: 69px;
         color: $darkgrey;
     }
+    input {
+        &:focus {
+            border-color: #2d2d2d;
+            &~.input-group-text {
+                border-color: #2d2d2d;
+            }
+        }
+    }
     label {
         color: $lightgray;
         font-size: 12px;

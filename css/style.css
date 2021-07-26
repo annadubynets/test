@@ -80,6 +80,10 @@ h4 {
   padding-bottom: 122px;
 }
 
+.pb-212px {
+  padding-bottom: 212px;
+}
+
 body {
   font-family: "Roboto";
   background-color: #FCFCFC;
@@ -337,6 +341,10 @@ p {
   font-size: 20px;
   color: #1B9EFF;
   text-decoration: none;
+}
+.less-link:hover {
+  color: #1B9EFF;
+  text-decoration: underline;
 }
 
 @media (max-width: 1900px) {

@@ -268,6 +268,10 @@ p {
     font-size: 20px;
     color: #1B9EFF;
     text-decoration: none;
+    &:hover {
+        color: #1B9EFF;
+        text-decoration: underline;
+    }
 }
 
 @media (max-width: 1900px) {

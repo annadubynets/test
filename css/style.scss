@@ -41,6 +41,16 @@ p {
     }
 }
 
+.btn-outline-primary {
+    font-weight: 300;
+    font-size: 20px;
+    padding: 8px 50px;
+    color: $black;
+    background: $white;
+    border-radius: 25px;
+    border: 1px solid $deepskyblue;
+}
+
 .btn-check:focus+.btn-primary,
 .btn-primary:focus {
     box-shadow: none!important;
@@ -58,7 +68,6 @@ p {
 }
 
 .form-control {
-    min-width: 537px;
     font-weight: 300;
     font-size: 26px;
     padding: 9px 20px;
@@ -99,6 +108,56 @@ p {
         border: 1px solid rgba(112, 112, 112, 0.23);
         border-left: none;
     }
+}
+
+.modal-dialog {
+    .modal-content {
+        background-color: $white;
+        border-radius: 10px;
+        border: none;
+        box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.05);
+    }
+    .input-group {
+        .input-group-text {
+            margin-left: -40px;
+            transition: all .4s;
+            z-index: 10;
+            border: 1px solid rgba(112, 112, 112, 0.23);
+            border-left: none;
+            border-radius: 25px;
+            padding: 0;
+        }
+        .input-group-button {
+            background: linear-gradient(90deg, #BF3EFE 0%, #1B9EFF 100%);
+            font-size: 20px;
+            color: $white;
+            border: none;
+            border-radius: 25px;
+            padding: 12px 40px;
+        }
+    }
+}
+
+.modal-backdrop {
+    background-color: transparent;
+    backdrop-filter: blur(60px)!important;
+    backdrop-filter: opacity(0.7)!important;
+    backdrop-filter: brightness(15)!important;
+}
+
+.hr-line {
+    width: 40%;
+    position: relative;
+    margin: 15px 13px;
+    border-bottom: 1px solid #E3E3E3;
+}
+
+.sign-in-link {
+    font-family: 'Merriweather';
+    font-style: italic;
+    color: $grey;
+    font-size: 20px;
+    text-decoration: none;
 }
 
 .card-bg {
@@ -142,6 +201,48 @@ p {
         top: 274px;
         width: 100%;
         height: 100%;
+    }
+    .form-control {
+        min-width: 537px;
+        font-weight: 300;
+        font-size: 26px;
+        padding: 9px 20px;
+        background-color: transparent;
+        color: $black;
+        border: 1px solid rgba(112, 112, 112, 0.23);
+        border-right: none;
+        border-radius: 5px;
+        transition: all .4s;
+        &:focus {
+            background-color: transparent;
+            outline: none;
+            box-shadow: none;
+            border: 1px solid rgba(112, 112, 112, 0.23);
+            border-right: none;
+        }
+    }
+    .input-group {
+        &:focus {
+            outline: none;
+            color: $black;
+            border-color: $grey;
+            box-shadow: 0px 20px 40px rgba(112, 112, 112, 0.23);
+        }
+        &:hover {
+            cursor: pointer;
+            color: $black;
+        }
+        .input-group-text {
+            background-color: transparent;
+            font-size: 20px;
+            margin-left: -40px;
+            border: none;
+            color: $black;
+            transition: all .4s;
+            z-index: 10;
+            border: 1px solid rgba(112, 112, 112, 0.23);
+            border-left: none;
+        }
     }
 }
 

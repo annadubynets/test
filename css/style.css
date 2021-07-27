@@ -704,6 +704,15 @@ ul .btn {
     padding: 0px 24px 40px 24px;
   }
 }
+.main-description.collapse:not(.show) ~ .shadow-decor {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 40px;
+  background-color: red;
+}
+
 @media (max-width: 992px) {
   h1 {
     font-size: 70px !important;

@@ -531,39 +531,39 @@ p {
   background: #d4ebfd1f;
 }
 
-.cerificate label {
+.certificate label {
   font-weight: 700;
   color: #585858;
   font-size: 21px;
   padding: 15px 0;
 }
-.cerificate p {
+.certificate p {
   font-weight: 400;
   color: #585858;
   font-size: 21px;
 }
-.cerificate .subtitle {
+.certificate .subtitle {
   font-weight: 900;
   color: #585858;
   font-size: 42px;
 }
-.cerificate .table-hover:hover {
+.certificate .table-hover:hover {
   background: #d4ebfd1f;
 }
-.cerificate .form-control {
+.certificate .form-control {
   border: 1px solid rgba(112, 112, 112, 0.23);
 }
-.cerificate .form-label {
+.certificate .form-label {
   font-size: 25px;
   font-weight: 900;
 }
-.cerificate .border-bottom {
+.certificate .border-bottom {
   border-bottom: 1px solid #707070 !important;
 }
-.cerificate .border-right {
+.certificate .border-right {
   border-right: 1px solid #707070 !important;
 }
-.cerificate .border-color-grey {
+.certificate .border-color-grey {
   border-color: #E3E3E3 !important;
 }
 

@@ -588,13 +588,14 @@ p {
 }
 
 .main-description {
-    &.collapse:not(.show) ~ .shadow-decor {
+    &.collapse:not(.show)~.shadow-decor {
         position: absolute;
         left: 0;
         right: 0;
         bottom: 0;
-        height: 40px;
-        background-color: red;
+        height: 50px;
+        background: rgb(248, 249, 250);
+        background: linear-gradient(90deg, rgba(248, 249, 250, .5) 80%, rgba(252, 252, 252, 1) 100%);
     }
 }
 

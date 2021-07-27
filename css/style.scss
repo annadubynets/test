@@ -511,16 +511,6 @@ p {
     }
 }
 
-.progress {
-    background-color: #E9E9E9!important;
-    height: 15px;
-    border-radius: 0;
-}
-
-.border {
-    border: 1px solid $darkgrey!important;
-}
-
 .exam {
     .form-check-label {
         font-weight: 300;
@@ -550,6 +540,14 @@ p {
             min-width: 40px;
             margin-bottom: 12px;
         }
+    }
+    .progress {
+        background-color: #E9E9E9!important;
+        height: 15px;
+        border-radius: 0;
+    }
+    .border {
+        border: 1px solid $darkgrey!important;
     }
 }
 

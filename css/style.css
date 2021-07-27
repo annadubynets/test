@@ -638,16 +638,6 @@ p {
   box-shadow: none;
 }
 
-.progress {
-  background-color: #E9E9E9 !important;
-  height: 15px;
-  border-radius: 0;
-}
-
-.border {
-  border: 1px solid #707070 !important;
-}
-
 .exam .form-check-label {
   font-weight: 300;
   font-size: 20px;
@@ -676,6 +666,14 @@ p {
   padding: 7px 0px;
   min-width: 40px;
   margin-bottom: 12px;
+}
+.exam .progress {
+  background-color: #E9E9E9 !important;
+  height: 15px;
+  border-radius: 0;
+}
+.exam .border {
+  border: 1px solid #707070 !important;
 }
 
 @media (max-width: 1900px) {

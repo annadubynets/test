@@ -46,8 +46,8 @@ h5 {
   color: #BB40FE;
 }
 
-.text-blue {
-  color: #1B9EFF;
+.text-primary {
+  color: #1B9EFF !important;
 }
 
 .text-secondary {
@@ -116,6 +116,10 @@ h5 {
 
 .mb-63px {
   margin-bottom: 63px;
+}
+
+.mb-90px {
+  margin-bottom: 90px;
 }
 
 body {
@@ -328,6 +332,14 @@ p {
   color: #848484;
 }
 
+.badge {
+  position: absolute;
+  bottom: 8px;
+  left: 8px;
+  padding: 6px 16px;
+  border-radius: 5px;
+}
+
 .learn .card-img-top {
   min-height: 250px;
 }
@@ -509,6 +521,9 @@ p {
 }
 .cerificate .border-right {
   border-right: 1px solid #707070 !important;
+}
+.cerificate .border-color-grey {
+  border-color: #E3E3E3 !important;
 }
 
 .less-link {

@@ -55,8 +55,8 @@ h5 {
     color: $mediumpurple;
 }
 
-.text-blue {
-    color: $deepskyblue;
+.text-primary {
+    color: $deepskyblue!important;
 }
 
 .text-secondary {
@@ -125,4 +125,8 @@ h5 {
 
 .mb-63px {
     margin-bottom: 63px;
+}
+
+.mb-90px {
+    margin-bottom: 90px;
 }

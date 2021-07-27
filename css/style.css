@@ -31,7 +31,7 @@ h5 {
 }
 
 .font-size-35px {
-  font-size: 35px;
+  font-size: 35px !important;
 }
 
 .font-size-25px {
@@ -58,6 +58,14 @@ h5 {
   color: #D6D6D6 !important;
 }
 
+.text-danger {
+  color: #D53B3B !important;
+}
+
+.text-success {
+  color: #25C144 !important;
+}
+
 .text-black-50 {
   color: #848484 !important;
 }
@@ -82,6 +90,10 @@ h5 {
   padding-bottom: 63px;
 }
 
+.pb-90px {
+  padding-bottom: 90px;
+}
+
 .pb-100px {
   padding-bottom: 100px;
 }
@@ -96,6 +108,14 @@ h5 {
 
 .pb-212px {
   padding-bottom: 212px;
+}
+
+.mt-84px {
+  margin-top: 84px;
+}
+
+.mb-63px {
+  margin-bottom: 63px;
 }
 
 body {
@@ -456,6 +476,39 @@ p {
 }
 .search .table-hover:hover {
   background: #d4ebfd1f;
+}
+
+.cerificate label {
+  font-weight: 700;
+  color: #585858;
+  font-size: 21px;
+  padding: 15px 0;
+}
+.cerificate p {
+  font-weight: 400;
+  color: #585858;
+  font-size: 21px;
+}
+.cerificate .subtitle {
+  font-weight: 900;
+  color: #585858;
+  font-size: 42px;
+}
+.cerificate .table-hover:hover {
+  background: #d4ebfd1f;
+}
+.cerificate .form-control {
+  border: 1px solid rgba(112, 112, 112, 0.23);
+}
+.cerificate .form-label {
+  font-size: 25px;
+  font-weight: 900;
+}
+.cerificate .border-bottom {
+  border-bottom: 1px solid #707070 !important;
+}
+.cerificate .border-right {
+  border-right: 1px solid #707070 !important;
 }
 
 .less-link {

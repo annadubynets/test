@@ -383,6 +383,43 @@ p {
     }
 }
 
+.cerificate {
+    label {
+        font-weight: 700;
+        color: $black;
+        font-size: 21px;
+        padding: 15px 0;
+    }
+    p {
+        font-weight: 400;
+        color: $black;
+        font-size: 21px;
+    }
+    .subtitle {
+        font-weight: 900;
+        color: $black;
+        font-size: 42px;
+    }
+    .table-hover {
+        &:hover {
+            background: #d4ebfd1f;
+        }
+    }
+    .form-control {
+        border: 1px solid rgba(112, 112, 112, 0.23);
+    }
+    .form-label {
+        font-size: 25px;
+        font-weight: 900;
+    }
+    .border-bottom {
+        border-bottom: 1px solid $darkgrey!important;
+    }
+    .border-right {
+        border-right: 1px solid $darkgrey!important;
+    }
+}
+
 .less-link {
     font-weight: 300;
     font-size: 20px;

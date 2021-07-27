@@ -4,6 +4,8 @@ $grey: #848484;
 $lightgray: #A4A4A4;
 $mediumpurple: #BB40FE;
 $deepskyblue: #1B9EFF;
+$red: #D53B3B;
+$green: #25C144;
 $white: #FFFFFF;
 $whitesmoke: #FCFCFC;
 $grid-breakpoints: ( xs: 0, sm: 576px, md: 768px, lg: 992px, xl: 1200px, xxl: 1400px);
@@ -38,7 +40,7 @@ h5 {
 }
 
 .font-size-35px {
-    font-size: 35px;
+    font-size: 35px!important;
 }
 
 .font-size-25px {
@@ -65,6 +67,14 @@ h5 {
     color: #D6D6D6!important;
 }
 
+.text-danger {
+    color: $red!important;
+}
+
+.text-success {
+    color: $green!important;
+}
+
 .text-black-50 {
     color: $grey!important;
 }
@@ -89,6 +99,10 @@ h5 {
     padding-bottom: 63px;
 }
 
+.pb-90px {
+    padding-bottom: 90px;
+}
+
 .pb-100px {
     padding-bottom: 100px;
 }
@@ -103,4 +117,12 @@ h5 {
 
 .pb-212px {
     padding-bottom: 212px;
+}
+
+.mt-84px {
+    margin-top: 84px;
+}
+
+.mb-63px {
+    margin-bottom: 63px;
 }

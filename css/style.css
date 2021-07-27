@@ -276,6 +276,7 @@ p {
   border: none;
   border-radius: 25px;
   padding: 12px 40px;
+  transform: scale(1.02);
 }
 
 .modal-backdrop {
@@ -283,10 +284,6 @@ p {
   backdrop-filter: blur(60px) !important;
   backdrop-filter: opacity(0.7) !important;
   backdrop-filter: brightness(15) !important;
-}
-
-.modal-md {
-  max-width: 600px;
 }
 
 .hr-line {
@@ -669,6 +666,11 @@ p {
 
   .search label {
     font-size: 14px;
+  }
+}
+@media (min-width: 768px) {
+  .modal-md {
+    max-width: 600px;
   }
 }
 

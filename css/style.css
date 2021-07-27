@@ -644,21 +644,6 @@ p {
   border-radius: 0;
 }
 
-ul {
-  list-style-type: none;
-  padding: 0;
-}
-ul li {
-  display: inline;
-  margin-right: 12px;
-  margin-bottom: 12px;
-}
-ul .btn {
-  padding: 7px 0px;
-  min-width: 40px;
-  margin-bottom: 12px;
-}
-
 .border {
   border: 1px solid #707070 !important;
 }
@@ -677,6 +662,20 @@ ul .btn {
 }
 .exam .form-check-input:focus {
   box-shadow: none;
+}
+.exam ul {
+  list-style-type: none;
+  padding: 0;
+}
+.exam ul li {
+  display: inline;
+  margin-right: 12px;
+  margin-bottom: 12px;
+}
+.exam ul .btn {
+  padding: 7px 0px;
+  min-width: 40px;
+  margin-bottom: 12px;
 }
 
 @media (max-width: 1900px) {

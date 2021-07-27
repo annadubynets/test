@@ -390,6 +390,7 @@ p {
         border-bottom: 1px solid rgba(27, 158, 255, 0.22)!important;
     }
     .table-hover {
+        cursor: pointer;
         &:hover {
             background: #d4ebfd1f;
         }

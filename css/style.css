@@ -421,7 +421,7 @@ p {
   background-repeat: no-repeat;
   position: absolute;
   left: -65px;
-  bottom: 30px;
+  bottom: -65px;
   width: 192px;
   height: 232px;
 }
@@ -531,39 +531,39 @@ p {
   background: #d4ebfd1f;
 }
 
-.cerificate label {
+.certificate label {
   font-weight: 700;
   color: #585858;
   font-size: 21px;
   padding: 15px 0;
 }
-.cerificate p {
+.certificate p {
   font-weight: 400;
   color: #585858;
   font-size: 21px;
 }
-.cerificate .subtitle {
+.certificate .subtitle {
   font-weight: 900;
   color: #585858;
   font-size: 42px;
 }
-.cerificate .table-hover:hover {
+.certificate .table-hover:hover {
   background: #d4ebfd1f;
 }
-.cerificate .form-control {
+.certificate .form-control {
   border: 1px solid rgba(112, 112, 112, 0.23);
 }
-.cerificate .form-label {
+.certificate .form-label {
   font-size: 25px;
   font-weight: 900;
 }
-.cerificate .border-bottom {
+.certificate .border-bottom {
   border-bottom: 1px solid #707070 !important;
 }
-.cerificate .border-right {
+.certificate .border-right {
   border-right: 1px solid #707070 !important;
 }
-.cerificate .border-color-grey {
+.certificate .border-color-grey {
   border-color: #E3E3E3 !important;
 }
 
@@ -622,30 +622,20 @@ p {
   width: 45px;
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='%23fff'/%3e%3c/svg%3e");
 }
-
-.progress {
-  background-color: #E9E9E9 !important;
-  height: 15px;
-  border-radius: 0;
+.course .form-check-label {
+  font-weight: 300;
+  font-size: 20px;
+  color: #848484;
 }
-
-ul {
-  list-style-type: none;
-  padding: 0;
+.course .form-check-input:checked[type=radio] {
+  background-color: #00E5A9;
+  border-color: #00E5A9;
 }
-ul li {
-  display: inline;
-  margin-right: 12px;
-  margin-bottom: 12px;
+.course .form-check-input {
+  border: 1px solid #AEAEAE;
 }
-ul .btn {
-  padding: 7px 0px;
-  min-width: 40px;
-  margin-bottom: 12px;
-}
-
-.border {
-  border: 1px solid #707070 !important;
+.course .form-check-input:focus {
+  box-shadow: none;
 }
 
 .exam .form-check-label {
@@ -662,6 +652,28 @@ ul .btn {
 }
 .exam .form-check-input:focus {
   box-shadow: none;
+}
+.exam ul {
+  list-style-type: none;
+  padding: 0;
+}
+.exam ul li {
+  display: inline;
+  margin-right: 12px;
+  margin-bottom: 12px;
+}
+.exam ul .btn {
+  padding: 7px 0px;
+  min-width: 40px;
+  margin-bottom: 12px;
+}
+.exam .progress {
+  background-color: #E9E9E9 !important;
+  height: 15px;
+  border-radius: 0;
+}
+.exam .border {
+  border: 1px solid #707070 !important;
 }
 
 @media (max-width: 1900px) {

@@ -527,6 +527,9 @@ p {
 .search .border-bottom {
   border-bottom: 1px solid rgba(27, 158, 255, 0.22) !important;
 }
+.search .table-hover {
+  cursor: pointer;
+}
 .search .table-hover:hover {
   background: #d4ebfd1f;
 }

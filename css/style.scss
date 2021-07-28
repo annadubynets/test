@@ -439,6 +439,9 @@ p {
     .border-color-grey {
         border-color: #E3E3E3!important;
     }
+    .card-footer {
+        border-top: none!important;
+    }
 }
 
 .less-link {
@@ -586,7 +589,7 @@ p {
         left: 0;
         right: 0;
         bottom: 0;
-        height: 50px;
+        height: 55px;
         background: rgb(248, 249, 250);
         background: linear-gradient(90deg, rgba(248, 249, 250, .5) 80%, rgba(252, 252, 252, 1) 100%);
     }

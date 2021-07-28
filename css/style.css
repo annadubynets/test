@@ -188,7 +188,7 @@ p {
   font-size: 20px;
   font-weight: 400;
 }
-.navbar-light .navbar-nav .nav-link:active {
+.navbar-light .navbar-nav .nav-link.active {
   color: #000000 !important;
   font-weight: 700;
   border-bottom: 1px solid #1B9EFF;

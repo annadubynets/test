@@ -82,6 +82,10 @@ h5 {
   color: #00E5A9;
 }
 
+.text-grey {
+  color: #AEAEAE;
+}
+
 .bg-transparent {
   background-color: #FCFCFC;
 }
@@ -219,8 +223,9 @@ p {
   border: none;
 }
 .btn-primary:hover {
-  background-position: -200%;
-  transition: background 300ms ease-in-out;
+  box-shadow: linear-gradient(100deg, #1470B2 0%, #872BB4 20%);
+  background-position: -100%;
+  transition: background 200ms ease-in-out;
 }
 
 .btn-primary.disabled,
@@ -342,8 +347,9 @@ p {
 .modal-backdrop {
   background-color: transparent;
   backdrop-filter: blur(60px) !important;
-  backdrop-filter: opacity(0.7) !important;
-  backdrop-filter: brightness(15) !important;
+}
+.modal-backdrop.show {
+  opacity: 1.5;
 }
 
 .hr-line {

@@ -630,6 +630,9 @@ p {
 .lessons-list {
     .list-group-item {
         color: $grey;
+        a {
+            color: inherit;
+        }
         &.completed {
             color: rgba(132, 132, 132, 0.5);
             .status-icon {

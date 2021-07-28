@@ -815,6 +815,9 @@ p {
 .lessons-list .list-group-item {
   color: #848484;
 }
+.lessons-list .list-group-item a {
+  color: inherit;
+}
 .lessons-list .list-group-item.completed {
   color: rgba(132, 132, 132, 0.5);
 }

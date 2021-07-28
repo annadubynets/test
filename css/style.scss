@@ -11,6 +11,14 @@ p {
     margin: 0;
 }
 
+a {
+    cursor: pointer;
+}
+
+a.styled-link:hover {
+    color: $deepskyblue!important;
+}
+
 .img-object-fit-cover {
     object-fit: cover;
 }
@@ -113,7 +121,6 @@ p {
     background-color: transparent;
     color: $black;
     border: 1px solid rgba(112, 112, 112, 0.23);
-    border-right: none;
     border-radius: 5px;
     transition: all .4s;
     &:focus {
@@ -121,7 +128,15 @@ p {
         outline: none;
         box-shadow: none;
         border: 1px solid rgba(112, 112, 112, 0.23);
+    }
+}
+
+.input-group {
+    .form-control {
         border-right: none;
+        &:focus {
+            border-right: none;
+        }
     }
 }
 

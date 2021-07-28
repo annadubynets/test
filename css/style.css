@@ -304,6 +304,18 @@ p {
   border-right: none;
 }
 
+.form-check .form-check-input:checked[type=radio] {
+  background-color: white;
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='2' fill='%2300e5a9'/%3e%3c/svg%3e");
+  border-color: #00E5A9;
+}
+.form-check .form-check-input {
+  border: 1px solid #AEAEAE;
+}
+.form-check .form-check-input:focus {
+  box-shadow: none;
+}
+
 .input-group:focus {
   outline: none;
   color: #585858;
@@ -648,30 +660,10 @@ p {
   cursor: pointer;
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='%23fff'/%3e%3c/svg%3e");
 }
-.course .form-check-input:checked {
+.course .form-switch .form-check-input:checked {
   background-color: #1B9EFF;
 }
-.course .form-check-input:checked[type=radio] {
-  background-color: #00E5A9;
-  border-color: #00E5A9;
-}
-.course .form-check-input {
-  border: 1px solid #AEAEAE;
-}
-.course .form-check-input:focus {
-  box-shadow: none;
-}
 
-.exam .form-check-input:checked[type=radio] {
-  background-color: #00E5A9;
-  border-color: #00E5A9;
-}
-.exam .form-check-input {
-  border: 1px solid #AEAEAE;
-}
-.exam .form-check-input:focus {
-  box-shadow: none;
-}
 .exam ul {
   list-style-type: none;
   padding: 0;

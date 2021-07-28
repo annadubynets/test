@@ -15,6 +15,13 @@ p {
     object-fit: cover;
 }
 
+.table-hover {
+    cursor: pointer;
+    &:hover {
+        background: #d4ebfd1f!important;
+    }
+}
+
 .navbar {
     padding: 30px 0 112px 0;
     .navbar-toggler {
@@ -395,12 +402,6 @@ p {
     .border-bottom {
         border-bottom: 1px solid #1b9eff38!important;
     }
-    .table-hover {
-        cursor: pointer;
-        &:hover {
-            background: #d4ebfd1f;
-        }
-    }
 }
 
 .certificate {
@@ -419,12 +420,6 @@ p {
         font-weight: 900;
         color: $black;
         font-size: 40px;
-    }
-    .table-hover {
-        cursor: pointer;
-        &:hover {
-            background: #d4ebfd1f;
-        }
     }
     .form-control {
         border: 1px solid rgba(112, 112, 112, 0.23);
@@ -589,7 +584,7 @@ p {
         left: 0;
         right: 0;
         bottom: 0;
-        height: 55px;
+        height: 100px;
         background: rgb(248, 249, 250);
         background: linear-gradient(90deg, rgba(248, 249, 250, .5) 80%, rgba(252, 252, 252, 1) 100%);
     }
@@ -649,6 +644,7 @@ p {
             font-weight: 700;
             color: $deepskyblue;
             border-color: #1b9eff38;
+            border-top-width: 0;
             .status-icon {
                 color: $deepskyblue;
             }

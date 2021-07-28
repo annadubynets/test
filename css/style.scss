@@ -421,6 +421,7 @@ p {
         font-size: 40px;
     }
     .table-hover {
+        cursor: pointer;
         &:hover {
             background: #d4ebfd1f;
         }

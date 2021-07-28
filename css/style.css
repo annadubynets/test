@@ -572,6 +572,9 @@ p {
   color: #585858;
   font-size: 40px;
 }
+.certificate .table-hover {
+  cursor: pointer;
+}
 .certificate .table-hover:hover {
   background: #d4ebfd1f;
 }

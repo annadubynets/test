@@ -146,6 +146,24 @@ p {
     }
 }
 
+.page-item {
+    margin: 0 4px;
+}
+
+.page-link {
+    background-color: transparent;
+    color: $grey;
+    border: 1px solid $grey;
+    border-radius: 5px;
+    &:focus,
+    &:hover {
+        box-shadow: none;
+        color: $white;
+        background-color: $deepskyblue;
+        border-color: $deepskyblue;
+    }
+}
+
 .input-group {
     &:focus {
         outline: none;

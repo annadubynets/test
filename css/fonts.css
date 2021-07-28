@@ -53,6 +53,15 @@
 }
 
 @font-face {
+    font-family: 'Merriweather';
+    src: url('../fonts/Merriweather-Bold.eot');
+    src: url('../fonts/Merriweather-Bold.eot?#iefix') format('embedded-opentype'), url('../fonts/Merriweather-Bold.woff2') format('woff2'), url('../fonts/Merriweather-Bold.woff') format('woff'), url('../fonts/Merriweather-Bold.ttf') format('truetype'), url('../fonts/Merriweather-Bold.svg#Merriweather-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
     font-family: 'icomoon';
     src: url('../fonts/icomoon.eot?to2f3i');
     src: url('../fonts/icomoon.eot?to2f3i#iefix') format('embedded-opentype'), url('../fonts/icomoon.ttf?to2f3i') format('truetype'), url('../fonts/icomoon.woff?to2f3i') format('woff'), url('../fonts/icomoon.svg?to2f3i#icomoon') format('svg');

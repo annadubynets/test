@@ -235,6 +235,7 @@ p {
 }
 
 .badge {
+    font-size: 16px;
     position: absolute;
     bottom: 8px;
     left: 8px;
@@ -441,9 +442,6 @@ p {
     .border-color-grey {
         border-color: #E3E3E3!important;
     }
-    .card-footer {
-        border-top: none!important;
-    }
 }
 
 .less-link {
@@ -462,7 +460,7 @@ p {
     font-size: 20px;
     background-color: transparent!important;
     color: $grey;
-    border: 1px solid #F1F1F1;
+    border: 1px solid rgba(27, 158, 255, 0.22);
     padding: 15px;
 }
 
@@ -650,7 +648,7 @@ p {
         &.active {
             font-weight: 700;
             color: $deepskyblue;
-            border-color: #F1F1F1;
+            border-color: rgba(27, 158, 255, 0.22);
             .status-icon {
                 color: $deepskyblue;
             }
@@ -669,7 +667,8 @@ p {
         &.active {
             font-weight: 700;
             color: $black;
-            border-color: #F1F1F1;
+            border-color: rgba(27, 158, 255, 0.22);
+            border-top-width: 0;
             .status-icon {
                 color: #AEAEAE;
             }

@@ -396,6 +396,7 @@ p {
 }
 
 .badge {
+  font-size: 16px;
   position: absolute;
   bottom: 8px;
   left: 8px;
@@ -591,9 +592,6 @@ p {
 .certificate .border-color-grey {
   border-color: #E3E3E3 !important;
 }
-.certificate .card-footer {
-  border-top: none !important;
-}
 
 .less-link {
   font-weight: 300;
@@ -611,7 +609,7 @@ p {
   font-size: 20px;
   background-color: transparent !important;
   color: #848484;
-  border: 1px solid #F1F1F1;
+  border: 1px solid rgba(27, 158, 255, 0.22);
   padding: 15px;
 }
 
@@ -803,7 +801,7 @@ p {
 .lessons-list .list-group-item.active {
   font-weight: 700;
   color: #1B9EFF;
-  border-color: #F1F1F1;
+  border-color: rgba(27, 158, 255, 0.22);
 }
 .lessons-list .list-group-item.active .status-icon {
   color: #1B9EFF;
@@ -818,7 +816,8 @@ p {
 .exam-lessons-list .list-group-item.active {
   font-weight: 700;
   color: #585858;
-  border-color: #F1F1F1;
+  border-color: rgba(27, 158, 255, 0.22);
+  border-top-width: 0;
 }
 .exam-lessons-list .list-group-item.active .status-icon {
   color: #AEAEAE;

@@ -74,6 +74,10 @@ h5 {
   color: #585858 !important;
 }
 
+.text-green {
+  color: #00E5A9;
+}
+
 .bg-transparent {
   background-color: #FCFCFC;
 }
@@ -790,6 +794,21 @@ p {
 }
 .lessons-list .list-group-item.active .status-icon {
   color: #1B9EFF;
+}
+
+.exam-lessons-list .list-group-item {
+  color: #848484;
+}
+.exam-lessons-list .list-group-item.completed .status-icon {
+  color: #00E5A9;
+}
+.exam-lessons-list .list-group-item.active {
+  font-weight: 700;
+  color: #585858;
+  border-color: #F1F1F1;
+}
+.exam-lessons-list .list-group-item.active .status-icon {
+  color: #AEAEAE;
 }
 
 @media (min-width: 768px) {

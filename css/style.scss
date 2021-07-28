@@ -653,6 +653,25 @@ p {
     }
 }
 
+.exam-lessons-list {
+    .list-group-item {
+        color: $grey;
+        &.completed {
+            .status-icon {
+                color: #00E5A9;
+            }
+        }
+        &.active {
+            font-weight: 700;
+            color: $black;
+            border-color: #F1F1F1;
+            .status-icon {
+                color: #AEAEAE;
+            }
+        }
+    }
+}
+
 @media (min-width: 768px) {
     .modal-md {
         max-width: 600px;

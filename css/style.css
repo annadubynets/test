@@ -338,6 +338,23 @@ a.styled-link:hover {
   box-shadow: none;
 }
 
+.page-item {
+  margin: 0 4px;
+}
+
+.page-link {
+  background-color: transparent;
+  color: #848484;
+  border: 1px solid #848484;
+  border-radius: 5px;
+}
+.page-link:focus, .page-link:hover {
+  box-shadow: none;
+  color: #FFFFFF;
+  background-color: #1B9EFF;
+  border-color: #1B9EFF;
+}
+
 .input-group:focus {
   outline: none;
   color: #585858;

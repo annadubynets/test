@@ -459,10 +459,6 @@ p {
     color: $grey;
     border: 1px solid #F1F1F1;
     padding: 15px;
-    .active {
-        font-weight: 700;
-        color: $deepskyblue;
-    }
 }
 
 .form-check-label {
@@ -633,6 +629,26 @@ p {
     .search {
         label {
             font-size: 14px;
+        }
+    }
+}
+
+.lessons-list {
+    .list-group-item {
+        color: $grey;
+        &.completed {
+            color: rgba(132, 132, 132, 0.5);
+            .status-icon {
+                color: #00E5A9;
+            }
+        }
+        &.active {
+            font-weight: 700;
+            color: $deepskyblue;
+            border-color: #F1F1F1;
+            .status-icon {
+                color: $deepskyblue;
+            }
         }
     }
 }

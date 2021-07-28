@@ -597,10 +597,6 @@ p {
   border: 1px solid #F1F1F1;
   padding: 15px;
 }
-.list-group-item .active {
-  font-weight: 700;
-  color: #1B9EFF;
-}
 
 .form-check-label {
   font-weight: 300;
@@ -778,6 +774,24 @@ p {
     font-size: 14px;
   }
 }
+.lessons-list .list-group-item {
+  color: #848484;
+}
+.lessons-list .list-group-item.completed {
+  color: rgba(132, 132, 132, 0.5);
+}
+.lessons-list .list-group-item.completed .status-icon {
+  color: #00E5A9;
+}
+.lessons-list .list-group-item.active {
+  font-weight: 700;
+  color: #1B9EFF;
+  border-color: #F1F1F1;
+}
+.lessons-list .list-group-item.active .status-icon {
+  color: #1B9EFF;
+}
+
 @media (min-width: 768px) {
   .modal-md {
     max-width: 600px;

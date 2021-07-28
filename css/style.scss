@@ -40,6 +40,10 @@ p {
         font-weight: 700;
         border-bottom: 1px solid $deepskyblue;
     }
+    &:hover,
+    &:active {
+        border-bottom: 1px solid $deepskyblue;
+    }
 }
 
 .main-description {

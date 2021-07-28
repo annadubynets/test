@@ -51,9 +51,8 @@ p {
     border-radius: 36px;
     border: none;
     &:hover {
-        box-shadow: linear-gradient( 100deg, #1470B2 0%, #872BB4 20%);
-        background-position: -100%;
-        transition: background 200ms ease-in-out;
+        background: linear-gradient(90deg, #BF3EFE 0%, #1B9EFF 40%, #5db5f8 100%);
+        box-shadow: 0px 20px 40px rgb(0 0 0 / 10%) !important;
     }
 }
 
@@ -434,7 +433,7 @@ p {
         font-weight: 900;
     }
     .border-bottom {
-        border-bottom: 1px solid $darkgrey!important;
+        border-bottom: 1px solid rgba(27, 158, 255, 0.22)!important;
     }
     .border-right {
         border-right: 1px solid $darkgrey!important;

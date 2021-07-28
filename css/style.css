@@ -552,7 +552,7 @@ p {
 .certificate .subtitle {
   font-weight: 900;
   color: #585858;
-  font-size: 42px;
+  font-size: 40px;
 }
 @media (max-width: 768px) {
   .certificate .subtitle {

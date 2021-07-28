@@ -158,6 +158,10 @@ h5 {
   margin-bottom: 90px;
 }
 
+.mb-167px {
+  margin-bottom: 167px;
+}
+
 body {
   font-family: "Roboto";
   background-color: #FCFCFC;
@@ -554,11 +558,6 @@ p {
   color: #585858;
   font-size: 40px;
 }
-@media (max-width: 768px) {
-  .certificate .subtitle {
-    font-size: 30px;
-  }
-}
 .certificate .table-hover:hover {
   background: #d4ebfd1f;
 }
@@ -794,6 +793,19 @@ p {
 @media (min-width: 768px) {
   .modal-md {
     max-width: 600px;
+  }
+}
+@media (max-width: 768px) {
+  .btn-outline-primary {
+    padding: 11px 20px;
+  }
+
+  .hr-line {
+    width: 25% !important;
+  }
+
+  .subtitle {
+    font-size: 30px;
   }
 }
 

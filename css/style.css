@@ -304,13 +304,22 @@ p {
   border-right: none;
 }
 
+.form-check {
+  padding-left: 2.5em;
+}
 .form-check .form-check-input:checked[type=radio] {
+  width: 28px;
+  height: 28px;
+  border-width: 3px;
   background-color: white;
-  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='2' fill='%2300e5a9'/%3e%3c/svg%3e");
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='2.5' fill='%2300e5a9'/%3e%3c/svg%3e");
   border-color: #00E5A9;
 }
 .form-check .form-check-input {
-  border: 1px solid #AEAEAE;
+  width: 28px;
+  height: 28px;
+  border: 3px solid #AEAEAE;
+  margin-left: -2.5em;
 }
 .form-check .form-check-input:focus {
   box-shadow: none;

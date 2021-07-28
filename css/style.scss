@@ -393,7 +393,7 @@ p {
         font-weight: 400;
     }
     .border-bottom {
-        border-bottom: 1px solid rgba(27, 158, 255, 0.22)!important;
+        border-bottom: 1px solid #1b9eff38!important;
     }
     .table-hover {
         cursor: pointer;
@@ -434,7 +434,7 @@ p {
         font-weight: 900;
     }
     .border-bottom {
-        border-bottom: 1px solid rgba(27, 158, 255, 0.22)!important;
+        border-bottom: 1px solid #1b9eff38!important;
     }
     .border-right {
         border-right: 1px solid $darkgrey!important;
@@ -460,7 +460,7 @@ p {
     font-size: 20px;
     background-color: transparent!important;
     color: $grey;
-    border: 1px solid rgba(27, 158, 255, 0.22);
+    border: 1px solid #1b9eff38;
     padding: 15px;
 }
 
@@ -648,7 +648,7 @@ p {
         &.active {
             font-weight: 700;
             color: $deepskyblue;
-            border-color: rgba(27, 158, 255, 0.22);
+            border-color: #1b9eff38;
             .status-icon {
                 color: $deepskyblue;
             }
@@ -667,7 +667,7 @@ p {
         &.active {
             font-weight: 700;
             color: $black;
-            border-color: rgba(27, 158, 255, 0.22);
+            border-color: #1b9eff38;
             border-top-width: 0;
             .status-icon {
                 color: #AEAEAE;

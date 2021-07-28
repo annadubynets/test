@@ -418,6 +418,11 @@ p {
         color: $black;
         font-size: 42px;
     }
+    @media (max-width: 768px) {
+        .subtitle {
+            font-size: 30px;
+        }
+    }
     .table-hover {
         &:hover {
             background: #d4ebfd1f;
@@ -609,6 +614,9 @@ p {
         font-size: 70px!important;
     }
     h2 {
+        font-size: 30px!important;
+    }
+    h3 {
         font-size: 30px!important;
     }
     .main-description {

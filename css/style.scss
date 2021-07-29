@@ -31,7 +31,8 @@ a.styled-link:hover {
 }
 
 .navbar {
-    padding: 30px 0 112px 0;
+    padding: 30px 0;
+    background-color: $whitesmoke;
     .navbar-toggler {
         &:focus {
             box-shadow: none!important;
@@ -666,7 +667,7 @@ a.styled-link:hover {
         font-size: 16px!important;
     }
     .navbar {
-        padding: 20px 0 44px 0;
+        padding: 20px 0;
     }
     .pb-122px {
         padding-bottom: 50px;
@@ -693,6 +694,12 @@ a.styled-link:hover {
     }
     .pb-167px {
         padding-bottom: 46px;
+    }
+    .pt-195px {
+        padding-top: 93px;
+    }
+    .pt-130px {
+        padding-top: 114px;
     }
 }
 

@@ -134,6 +134,14 @@ h5 {
   border-radius: 5px;
 }
 
+.pt-130px {
+  padding-top: 130px;
+}
+
+.pt-195px {
+  padding-top: 195px;
+}
+
 .pb-38px {
   padding-bottom: 38px;
 }
@@ -216,7 +224,8 @@ a.styled-link:hover {
 }
 
 .navbar {
-  padding: 30px 0 112px 0;
+  padding: 30px 0;
+  background-color: #FCFCFC;
 }
 .navbar .navbar-toggler:focus {
   box-shadow: none !important;
@@ -825,7 +834,7 @@ a.styled-link:hover {
   }
 
   .navbar {
-    padding: 20px 0 44px 0;
+    padding: 20px 0;
   }
 
   .pb-122px {
@@ -858,6 +867,14 @@ a.styled-link:hover {
 
   .pb-167px {
     padding-bottom: 46px;
+  }
+
+  .pt-195px {
+    padding-top: 93px;
+  }
+
+  .pt-130px {
+    padding-top: 114px;
   }
 }
 .lessons-list .list-group-item {

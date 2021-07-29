@@ -311,7 +311,7 @@ a.styled-link:hover {
   padding: 11px 50px;
   color: #585858;
   background: #FFFFFF;
-  border-radius: 25px;
+  border-radius: 50px;
   border: 1px solid #1B9EFF;
 }
 .btn-outline-primary:hover {
@@ -456,9 +456,6 @@ a.styled-link:hover {
   border-radius: 25px;
   padding: 12px 40px;
   transform: scale(1.02);
-}
-.modal-dialog .input-group .input-group-button:hover {
-  box-shadow: 0 4px 15px 0 rgba(65, 132, 234, 0.75);
 }
 
 .modal-backdrop {

@@ -116,7 +116,7 @@ a.styled-link:hover {
     padding: 11px 50px;
     color: $black;
     background: $white;
-    border-radius: 25px;
+    border-radius: 50px;
     border: 1px solid $deepskyblue;
     &:hover {
         background-color: $deepskyblue!important;
@@ -270,9 +270,6 @@ a.styled-link:hover {
             border-radius: 25px;
             padding: 12px 40px;
             transform: scale(1.02);
-            &:hover {
-                box-shadow: 0 4px 15px 0 rgba(65, 132, 234, 0.75);
-            }
         }
     }
 }

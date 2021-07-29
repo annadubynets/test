@@ -162,6 +162,10 @@ h5 {
   padding-bottom: 122px;
 }
 
+.pb-167px {
+  padding-bottom: 167px;
+}
+
 .pb-212px {
   padding-bottom: 212px;
 }
@@ -847,6 +851,14 @@ a.styled-link:hover {
   .search label {
     font-size: 14px;
   }
+
+  .mb-167px {
+    margin-bottom: 46px;
+  }
+
+  .pb-167px {
+    padding-bottom: 46px;
+  }
 }
 .lessons-list .list-group-item {
   color: #848484;
@@ -902,10 +914,6 @@ a.styled-link:hover {
 
   .subtitle {
     font-size: 30px;
-  }
-
-  .mb-167px {
-    margin-bottom: 46px;
   }
 }
 

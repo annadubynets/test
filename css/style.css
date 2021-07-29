@@ -269,6 +269,15 @@ a.styled-link:hover {
   font-size: 26px;
   color: #848484;
 }
+.main-description.collapse:not(.show) ~ .shadow-decor {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 100px;
+  background: #f8f9fa;
+  background: linear-gradient(90deg, rgba(248, 249, 250, 0.5) 80%, #fcfcfc 100%);
+}
 
 .btn-primary {
   font-weight: 400;
@@ -571,16 +580,6 @@ a.styled-link:hover {
   right: -80px;
 }
 
-@media (min-width: 1200px) and (max-width: 1500px) {
-  .repeat-grid-right {
-    right: -14px;
-    width: 140px;
-  }
-
-  .ellipse-decor-1 {
-    right: -10px;
-  }
-}
 .ellipse-decor-2 {
   width: 22px;
   height: 22px;
@@ -762,121 +761,6 @@ a.styled-link:hover {
   border: 1px solid #707070 !important;
 }
 
-@media (max-width: 1900px) {
-  .card {
-    padding: 0px 30px 40px 30px;
-  }
-}
-@media (max-width: 1200px) {
-  h1 {
-    font-size: 86px !important;
-  }
-
-  h2 {
-    font-size: 50px !important;
-  }
-
-  .font-size-20px {
-    font-size: 16px !important;
-  }
-
-  .repeat-grid-left {
-    background-image: url("../images/repeat-grid-left-middle.svg") !important;
-    left: -35px !important;
-    bottom: 55px !important;
-    width: 120px;
-  }
-
-  .repeat-grid-right {
-    background-image: url("../images/repeat-grid-right-middle.svg") !important;
-    right: -10px !important;
-    top: -45px !important;
-    width: 120px;
-  }
-
-  .ellipse-decor-1 {
-    display: none;
-  }
-
-  .card {
-    padding: 0px 24px 40px 24px;
-  }
-}
-.main-description.collapse:not(.show) ~ .shadow-decor {
-  position: absolute;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  height: 100px;
-  background: #f8f9fa;
-  background: linear-gradient(90deg, rgba(248, 249, 250, 0.5) 80%, #fcfcfc 100%);
-}
-
-@media (max-width: 992px) {
-  h1 {
-    font-size: 70px !important;
-  }
-
-  h2 {
-    font-size: 30px !important;
-  }
-
-  h3 {
-    font-size: 30px !important;
-  }
-
-  .main-description {
-    font-size: 18px !important;
-  }
-
-  .form-control {
-    font-size: 16px !important;
-  }
-
-  .navbar {
-    padding: 20px 0;
-  }
-
-  .pb-122px {
-    padding-bottom: 50px;
-  }
-
-  .pb-100px {
-    padding-bottom: 60px;
-  }
-
-  .pb-63px {
-    padding-bottom: 40px;
-  }
-
-  .pb-50px {
-    padding-bottom: 40px;
-  }
-
-  .card-img-top {
-    max-width: 300px;
-  }
-
-  .search label {
-    font-size: 14px;
-  }
-
-  .mb-167px {
-    margin-bottom: 46px;
-  }
-
-  .pb-167px {
-    padding-bottom: 46px;
-  }
-
-  .pt-195px {
-    padding-top: 93px;
-  }
-
-  .pt-130px {
-    padding-top: 114px;
-  }
-}
 .lessons-list .list-group-item {
   color: #848484;
 }
@@ -962,6 +846,125 @@ input::-webkit-input-placeholder {
   color: transparent;
 }
 
+@media (max-width: 1900px) {
+  .card {
+    padding: 0px 30px 40px 30px;
+  }
+}
+@media (min-width: 1200px) and (max-width: 1500px) {
+  .repeat-grid-right {
+    right: -14px;
+    width: 140px;
+  }
+
+  .ellipse-decor-1 {
+    right: -10px;
+  }
+}
+@media (max-width: 1200px) {
+  h1 {
+    font-size: 86px !important;
+  }
+
+  h2 {
+    font-size: 50px !important;
+  }
+
+  .font-size-20px {
+    font-size: 16px !important;
+  }
+
+  .repeat-grid-left {
+    background-image: url("../images/repeat-grid-left-middle.svg") !important;
+    left: -35px !important;
+    bottom: 55px !important;
+    width: 120px;
+  }
+
+  .repeat-grid-right {
+    background-image: url("../images/repeat-grid-right-middle.svg") !important;
+    right: -10px !important;
+    top: -45px !important;
+    width: 120px;
+  }
+
+  .ellipse-decor-1 {
+    display: none;
+  }
+
+  .ellipse-decor-4 {
+    display: none;
+  }
+
+  .card {
+    padding: 0px 24px 40px 24px;
+  }
+}
+@media (max-width: 992px) {
+  h1 {
+    font-size: 70px !important;
+  }
+
+  h2 {
+    font-size: 30px !important;
+  }
+
+  h3 {
+    font-size: 30px !important;
+  }
+
+  .main-description {
+    font-size: 18px !important;
+  }
+
+  .form-control {
+    font-size: 16px !important;
+  }
+
+  .navbar {
+    padding: 20px 0;
+  }
+
+  .pb-122px {
+    padding-bottom: 50px;
+  }
+
+  .pb-100px {
+    padding-bottom: 60px;
+  }
+
+  .pb-63px {
+    padding-bottom: 40px;
+  }
+
+  .pb-50px {
+    padding-bottom: 40px;
+  }
+
+  .card-img-top {
+    max-width: 300px;
+  }
+
+  .search label {
+    font-size: 14px;
+  }
+
+  .mb-167px {
+    margin-bottom: 46px;
+  }
+
+  .pb-167px {
+    padding-bottom: 46px;
+  }
+
+  .pt-195px {
+    padding-top: 93px;
+  }
+
+  .pt-130px {
+    padding-top: 114px;
+  }
+}
 @media (min-width: 768px) {
   .modal-md {
     max-width: 600px;

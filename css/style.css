@@ -829,7 +829,7 @@ input[type=search] {
 }
 input[type=search]:focus {
   width: 300px;
-  padding: 13px 32px 13px 27px;
+  padding: 11px 32px 11px 27px;
   padding-right: 27px;
   border-radius: 69px;
   color: #585858;

@@ -222,14 +222,32 @@ a.styled-link:hover {
   color: #585858;
   font-size: 20px;
   font-weight: 400;
+  padding: 0;
+  display: inline-block;
+}
+.navbar-light .navbar-nav .nav-link .hover-effect {
+  position: relative;
+}
+.navbar-light .navbar-nav .nav-link .hover-effect:after {
+  content: "";
+  display: block;
+  height: 1px;
+  width: 0;
+  background-color: #1B9EFF;
+  transition: 0.5s;
+  position: absolute;
+  bottom: -9px;
+}
+.navbar-light .navbar-nav .nav-link .hover-effect:hover:after {
+  width: 100%;
 }
 .navbar-light .navbar-nav .nav-link.active {
   color: #000000 !important;
   font-weight: 700;
-  border-bottom: 1px solid #1B9EFF;
+  width: 100%;
 }
-.navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:active {
-  border-bottom: 1px solid #1B9EFF;
+.navbar-light .navbar-nav .nav-link.active .hover-effect::after {
+  width: 100%;
 }
 
 .main-description {
@@ -250,7 +268,7 @@ a.styled-link:hover {
 }
 .btn-primary:hover {
   background: linear-gradient(90deg, #BF3EFE 0%, #1B9EFF 40%, #5db5f8 100%);
-  box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1) !important;
+  box-shadow: 0 4px 15px 0 rgba(65, 132, 234, 0.75);
 }
 
 .btn-primary.disabled,
@@ -273,6 +291,7 @@ a.styled-link:hover {
 .btn-outline-primary:hover {
   background-color: #1B9EFF !important;
   border: 1px solid #1B9EFF;
+  box-shadow: 0 4px 15px 0 rgba(65, 132, 234, 0.75);
 }
 
 .btn-check:focus + .btn-outline-primary,

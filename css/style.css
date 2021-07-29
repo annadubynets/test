@@ -38,6 +38,10 @@ h5 {
   font-size: 25px !important;
 }
 
+.font-size-22px {
+  font-size: 22px !important;
+}
+
 .font-size-20px {
   font-size: 20px !important;
 }
@@ -452,6 +456,9 @@ a.styled-link:hover {
   border-radius: 25px;
   padding: 12px 40px;
   transform: scale(1.02);
+}
+.modal-dialog .input-group .input-group-button:hover {
+  box-shadow: 0 4px 15px 0 rgba(65, 132, 234, 0.75);
 }
 
 .modal-backdrop {

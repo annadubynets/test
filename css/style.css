@@ -864,13 +864,17 @@ input::-webkit-input-placeholder {
   left: -210px !important;
 }
 .tt-menu.tt-open .course-type {
-  border-right: 1px solid red;
+  border-right: 1px solid #D6D6D6;
 }
 .tt-menu.tt-open .tt-suggestion {
-  border-bottom: 1px solid red;
+  border-bottom: 1px solid #D6D6D6;
 }
 .tt-menu.tt-open .tt-suggestion:nth-last-child(-n+2) {
   border-bottom: 1px solid transparent;
+}
+.tt-menu.tt-open .search-description {
+  opacity: 0.7;
+  padding-top: 9px;
 }
 
 @media (max-width: 768px) {

@@ -708,17 +708,18 @@ input::-webkit-input-placeholder {
     margin-top: 24px;
     min-width: 568px;
     left: -210px!important;
-
     .course-type {
-        border-right: 1px solid red;
+        border-right: 1px solid $silver;
     }
-
     .tt-suggestion {
-        border-bottom: 1px solid red;
+        border-bottom: 1px solid $silver;
     }
-
     .tt-suggestion:nth-last-child(-n+2) {
         border-bottom: 1px solid transparent;
+    }
+    .search-description {
+        opacity: 0.7;
+        padding-top: 9px;
     }
 }
 

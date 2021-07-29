@@ -422,24 +422,21 @@
     <script src="js/bootstrap.min.js"></script>
     <script src="js/typeahead.bundle.js"></script>
     <script src="js/scripts.js"></script>
-    
+
 
     <script>
         $(function() {
-            const data = [
-                {
-                    type: "Course",
-                    title: "<strong>Get started</strong> with custom visuals",
-                    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi molestie ullamcorper dolor et feugiat.",
-                    value: "Get started with custom visuals",
-                },
-                {
-                    type: "Quiz",
-                    title: "<strong>Get started</strong> with custom visuals",
-                    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi molestie ullamcorper dolor et feugiat.",
-                    value: "Get started with custom visuals",
-                }
-            ];
+            const data = [{
+                type: "Course",
+                title: "<strong>Get started</strong> with custom visuals",
+                description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi molestie ullamcorper dolor et feugiat.",
+                value: "Get started with custom visuals",
+            }, {
+                type: "Quiz",
+                title: "<strong>Get started</strong> with custom visuals",
+                description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi molestie ullamcorper dolor et feugiat.",
+                value: "Get started with custom visuals",
+            }];
 
             var substringMatcher = function(data) {
                 return function findMatches(q, cb) {
@@ -457,7 +454,7 @@
                             matches.push(item);
                         }
                     });
-                    
+
                     if (matches.length > 0) {
                         matches.push({
                             type: "show-more",
@@ -477,32 +474,31 @@
                 source: substringMatcher(data),
                 templates: {
                     empty: [
-                    '<div class="empty-message text-center my-5">',
+                        '<div class="empty-message text-center my-5">',
                         '<h4>No Results Found</h4>',
                         '<a href="search.html" class="text-decoration-none text-primary font-size-18px" mt-3>Try Again</a>',
-                    '</div>'
+                        '</div>'
                     ].join('\n'),
                     suggestion: function(data) {
                         console.log(data);
                         if (data.type == 'show-more') {
                             return [
                                 '<div class="more-results text-center mt-4">',
-                                    '<a href="search.html" class="text-decoration-none text-primary font-size-18px">More results</a>',
+                                '<a href="search.html" class="text-decoration-none text-primary font-size-18px">More results</a>',
                                 '</div>'
-                                ].join('\n');
+                            ].join('\n');
                         } else {
                             return [
                                 '<div class="typeahead-serach-item pb-4 mb-4">',
-                                    `<div class="search-header"><span class="course-type pe-3">${data.type}</span><span class="course-title ps-3">${data.title}</span></div>`,
-                                    `<div class="search-description"><span>${data.description}</span>`,
+                                `<div class="search-header"><span class="course-type pe-3">${data.type}</span><span class="course-title font-size-18px text-black ps-3">${data.title}</span></div>`,
+                                `<div class="search-description font-size-16px text-black"><span>${data.description}</span>`,
                                 '</div>'
-                                ].join('\n');
+                            ].join('\n');
                         }
                     }
                 }
             });
         });
-        
     </script>
 </body>
 

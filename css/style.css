@@ -355,6 +355,7 @@ a.styled-link:hover {
   height: 28px;
   border: 3px solid #AEAEAE;
   margin-left: -2.5em;
+  cursor: pointer;
 }
 .form-check .form-check-input:focus {
   box-shadow: none;

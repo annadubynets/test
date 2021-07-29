@@ -915,6 +915,53 @@ a.styled-link:hover {
   color: #AEAEAE;
 }
 
+input {
+  outline: none;
+}
+
+input[type=search] {
+  -webkit-appearance: textfield;
+  -webkit-box-sizing: content-box;
+  font-family: inherit;
+  font-size: 100%;
+}
+
+input::-webkit-search-decoration,
+input::-webkit-search-cancel-button {
+  display: none;
+}
+
+input[type=search] {
+  width: 15px;
+  padding-left: 8px;
+  color: transparent;
+  cursor: pointer;
+  background: transparent url("../images/search.svg") no-repeat;
+  background-position: 95% 50%;
+  border: none;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  transition: all 0.5s;
+}
+input[type=search]:focus {
+  width: 300px;
+  padding: 13px 32px 13px 27px;
+  padding-right: 27px;
+  border-radius: 69px;
+  color: #585858;
+  background-color: #FCFCFC;
+  border: 1px solid #707070;
+  cursor: auto;
+}
+
+input:-moz-placeholder {
+  color: transparent;
+}
+
+input::-webkit-input-placeholder {
+  color: transparent;
+}
+
 @media (min-width: 768px) {
   .modal-md {
     max-width: 600px;

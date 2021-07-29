@@ -704,12 +704,15 @@ input::-webkit-input-placeholder {
     background-color: white;
     box-shadow: 0 3px 25px 0 rgba(17, 17, 139, 0.1);
     border-radius: 10px;
-    padding: 33px 45px;
+    padding: 33px 0px;
     margin-top: 24px;
     min-width: 568px;
-    left: -210px!important;
+    left: -205px!important;
     .course-type {
         border-right: 1px solid $silver;
+    }
+    .typeahead-search-item {
+        padding: 0px 45px;
     }
     .tt-suggestion {
         border-bottom: 1px solid $silver;

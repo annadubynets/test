@@ -332,6 +332,9 @@
                 border-radius: 25px;
                 padding: 12px 40px;
                 transform: scale(1.02);
+                &:hover {
+                    box-shadow: 0 4px 15px 0 rgba(65, 132, 234, 0.75);
+                }
             }
         }
     }

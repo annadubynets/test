@@ -63,7 +63,7 @@
 
                                 <div class="row">
                                     <div class="col-lg-4 d-grid text-lg-start text-center">
-                                        <button type="button" class="btn btn-primary">Start Exam</button>
+                                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#start-exam-modal">Start Exam</button>
                                     </div>
                                 </div>
                             </div>
@@ -152,6 +152,42 @@
             </div>
         </div>
     </section>
+
+    <div class="modal fade" id="start-exam-modal" tabindex="-1" aria-labelledby="start-exam-modal" aria-hidden="true">
+        <div class="modal-dialog modal-md modal-lg modal-dialog-centered">
+            <div class="modal-content">
+                <div class="text-end">
+                    <button type="button" class="btn-close m-4" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+
+                <div class="modal-body pt-0 px-lg-5 px-4 pb-5 text-center">
+                    <h4 class="mb-4">Exam - ZoomCharts User</h4>
+                    <p class="font-size-20px text-dark fw-bold pb-5">Before you start, review the information below:</p>
+
+                    <div class="row justify-content-center">
+                        <div class="col-lg-10 text-start">
+                            <ul>
+                                <li class="font-size-16px text-black-50">You will be asked 23 questions.
+                                </li>
+                                <li class="font-size-16px text-black-50">You are allowed 27 minutes for the exam.
+                                </li>
+                                <li class="font-size-16px text-black-50">To pass the exam, you need to score at least 70%.
+                                </li>
+                                <li class="font-size-16px text-black-50">The exam and certification are 100% free.
+                                </li>
+                                <li class="font-size-16px text-black-50">You can immediately retake the exam.
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <a type="button" class="btn btn-primary" href="course-preview-exam-question.html">Start Exam</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
 
     <script src="js/jquery-1.12.4.js"></script>
     <script src="js/bootstrap.min.js"></script>

@@ -84,7 +84,7 @@
                             <a href="knowledge-check.html" class="btn btn-outline-primary">« Previous Question</a>
                         </div>
                         <div class="col-lg-6 text-start d-lg-block d-grid mb-lg-0 mb-4">
-                            <a href="#" class="btn btn-primary">Submit Answers</a>
+                            <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#submit-confirmation-modal">Submit Answers</a>
                         </div>
                     </div>
 
@@ -333,6 +333,30 @@
             </div>
         </div>
     </section>
+
+
+    <div class="modal fade" id="submit-confirmation-modal" tabindex="-1" aria-labelledby="submit-confirmation-modal" aria-hidden="true">
+        <div class="modal-dialog modal-md modal-lg modal-dialog-centered">
+            <div class="modal-content">
+                <div class="text-end">
+                    <button type="button" class="btn-close m-4" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+
+                <div class="modal-body pt-0 px-lg-5 px-4 pb-5 text-center">
+                    <h4 class="mb-5">Do you want to submit answers?</h4>
+
+                    <div class="row justify-content-center">
+                        <div class="col-lg-10">
+                            <div class="d-lg-flex d-block justify-content-lg-between justify-content-center">
+                                <button type="button" class="btn btn-outline-primary" data-bs-dismiss="modal" data-bs-toggle="modal" data-bs-target="#time-expired-modal" >Edit Answers</button>
+                                <a href="certificate-congrats.html" class="btn btn-primary">Finish Exam</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <script src="js/jquery-1.12.4.js"></script>
     <script src="js/bootstrap.min.js"></script>

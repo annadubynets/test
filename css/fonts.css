@@ -137,20 +137,24 @@
 
 .icon-completed:before {
     content: "\e902";
+    font-size: 20px;
 }
 
 .icon-quiz:before {
     content: "\e901";
+    font-size: 20px;
 }
 
 .icon-video-inactive-disable:before {
     content: "\e907";
     color: #aeaeae;
+    font-size: 20px;
 }
 
 .icon-video-inactive:before {
     content: "\e908";
     color: #1b9eff;
+    font-size: 20px;
 }
 
 .icon-search:before {

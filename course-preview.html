@@ -24,10 +24,10 @@
 
                 <ul class="navbar-nav ms-lg-auto ms-0">
                     <li class="nav-item align-self-center">
-                        <a class="nav-link active" href="course-preview.html"><span class="hover-effect">Academy</span></a>
+                        <a class="nav-link" href="course-preview.html"><span class="hover-effect">Academy</span></a>
                     </li>
                     <li class="nav-item align-self-center">
-                        <a class="nav-link" href="course-preview-failed.html"><span class="hover-effect">Exam</span></a>
+                        <a class="nav-link active" href="course-preview-failed.html"><span class="hover-effect">Exam</span></a>
                     </li>
                     <li class="nav-item align-self-center">
                         <a class="nav-link" href="#"><span class="hover-effect">Documentation</span></a>
@@ -313,12 +313,13 @@
                     <h2 class="mb-4">Report a Problem</h2>
                     <textarea class="form-control mb-5" id="problemTextarea" rows="3"></textarea>
 
-                    <button type="button" class="btn btn-primary">Submit</button>
+                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal" data-bs-toggle="modal" data-bs-target="#report-success-modal">Submit</button>
                 </div>
             </div>
         </div>
     </div>
-    <!-- <div class="modal fade" id="report-modal" tabindex="-1" aria-labelledby="report-modal" aria-hidden="true">
+
+    <div class="modal fade" id="report-success-modal" tabindex="-1" aria-labelledby="report-success-modal" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered">
             <div class="modal-content">
                 <div class="text-end">
@@ -331,7 +332,7 @@
                 </div>
             </div>
         </div>
-    </div> -->
+    </div>
 
     <script src="js/jquery-1.12.4.js"></script>
     <script src="js/bootstrap.min.js"></script>
